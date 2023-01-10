@@ -1,0 +1,48 @@
+package zadaca5;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Set2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Set<String> set1 = new HashSet<String>();
+		
+		set1.add("Zoran");
+		set1.add("Nikola");
+		set1.add("Jovana");
+		
+		Set<String> set2 = new HashSet<String>();
+		
+		set2.add("Hristijan");
+		set2.add("Marija");
+		set2.add("Magdalena");
+		
+		set1.addAll(set2);
+		
+		System.out.println(set1);
+		System.out.println(set1.size());
+		
+		
+		Set<Integer> set3 = new HashSet<Integer>();
+		
+		set3.add(20);
+		set3.add(10);
+		set3.add(7);
+		
+		Set<Integer> set4 = new HashSet<Integer>();
+		
+		set4.add(10);
+		set4.add(29);
+		set4.add(20);
+		
+		set3.retainAll(set4);
+		System.out.println(set3);
+		System.out.println(set3.size());
+		
+		
+	}
+
+}

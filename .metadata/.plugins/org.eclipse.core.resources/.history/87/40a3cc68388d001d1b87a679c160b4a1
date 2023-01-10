@@ -1,0 +1,43 @@
+package zadaca1;
+import java.io.*;
+
+public class Datoteka {
+	
+	public String filename;
+	FileInputStream in;
+	FileOutputStream out;
+	
+	
+	public Datoteka (String filename) {
+		this.filename = filename;
+		
+		
+	}
+	public void Zapisi(String zapis)  {
+		FileWriter writer;
+		try {
+			writer = new FileWriter(filename);
+			writer.write(zapis);
+			writer.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+		
+	}
+	
+	public void Citaj() throws IOException  {
+		FileReader reader;
+		try {
+			reader = new FileReader(filename);
+			reader.read();
+			System.out.println(reader);
+			reader.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

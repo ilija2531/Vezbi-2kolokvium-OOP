@@ -1,0 +1,18 @@
+package zadaca1;
+
+import java.io.IOException;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		
+		Datoteka datoteka = new Datoteka("tekst.txt");
+		String zapis;
+		zapis = "Zdravo na site";
+		datoteka.Zapisi(zapis);
+		datoteka.Citaj();
+		
+		
+	}
+
+}

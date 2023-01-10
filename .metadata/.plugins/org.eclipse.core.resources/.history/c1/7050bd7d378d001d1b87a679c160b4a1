@@ -1,0 +1,29 @@
+package zadaca1;
+import java.io.*;
+
+public class Datoteka {
+	
+	public String filename;
+	FileInputStream in;
+	FileOutputStream out;
+	
+	
+	public Datoteka (String filename) {
+		this.filename = filename;
+		
+		
+	}
+	public void Zapisi(String zapis) throws IOException {
+		FileWriter writer = new FileWriter(filename);
+		writer.write(zapis);
+		writer.close();
+		
+	}
+	
+	public void Citaj() throws IOException {
+		FileReader reader = new FileReader(filename);
+		reader.read();
+		System.out.println(reader);
+		reader.close();
+	}
+}

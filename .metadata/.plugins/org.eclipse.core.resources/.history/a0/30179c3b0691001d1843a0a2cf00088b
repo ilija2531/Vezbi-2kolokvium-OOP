@@ -1,0 +1,29 @@
+package zadaca4;
+
+
+
+public class JavaFX {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			launch(args);
+		
+
+	}
+	@Override
+	public void start(Stage primaryStage) {
+		primaryStage.setTitle("Hello World");
+		
+		final Button btn = new Button();
+		btn.setText("Click Me!");
+		
+		final StackPane root = new StackPane();
+		root.getChildren().add(btn);
+		
+		primaryStage.setScene(new Scene(root, 300,300));
+		primaryStage.show();
+		
+	}
+	
+
+}

@@ -1,0 +1,10 @@
+package zadaca4;
+
+public class MyGui {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author ilija
+ *
+ */
+module vezbi2kolokvium {
+	requires java.xml;
+}

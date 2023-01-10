@@ -1,0 +1,11 @@
+package zadaca1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Datoteka datoteka = new Datoteka("tekst.txt");
+
+	}
+
+}

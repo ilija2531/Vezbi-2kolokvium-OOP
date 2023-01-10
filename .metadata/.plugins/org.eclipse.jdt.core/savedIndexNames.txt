@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\ilija\Desktop\Java-OOP\Moi vezbi\Vezbi za 2 kolokvium\.metadata\.plugins\org.eclipse.jdt.core
+3959137331.index
+1224164091.index
+1865797976.index
